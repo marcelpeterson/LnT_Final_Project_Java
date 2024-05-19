@@ -112,7 +112,7 @@ public class HomePage {
 				String menuCode;
 				do {
 					menuCode = MenuController.randomizeKode();
-				} while(!MenuController.isKodeExists(menuCode));
+				} while(MenuController.isKodeExists(menuCode));
 				
 				String menuName = namaField.getText();
 				Integer menuPrice = null;
